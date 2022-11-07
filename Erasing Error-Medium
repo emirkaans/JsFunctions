@@ -1,11 +1,3 @@
-function changeContent () {
-    var myelement = document.getElementById("myelement");
-    myelement.innerHTML= "New Text";
-}
-
-window.onload = changeContent ;
-
-
 // arraydeki erroru silip ortanca değeri bulan fonksiyon;
 
 const calcMedium = function(arr){
