@@ -9,10 +9,9 @@ const calcMedium = function(arr){
     tempar.push(arr[i]);
   }
   
-  console.log(`Yeni Array = ${tempar}`);
+  console.log(`New Array = ${tempar}`);
   
-  if(tempar.length %2 ===0){ 
-  
+  if(tempar.length %2 === 0){ 
   medium = [tempar[(tempar.length)/2-1], tempar[(tempar.length)/2]];
   } else {
     medium = tempar[(tempar.length +1) /2 -1];
